@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Quicksand', sans-serif;
+ 
+  margin: 0;
+  padding: 0;
+}
+ 
+h2,
+h3 {
+  color: #436850;
+}
+ 
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #436850;
+ 
+  text-align: center;
+  font-weight: bold;
+}
+ 
+nav a {
+  font-size: 18px;
+ 
+  font-weight: 400;
+  text-decoration: none;
+ 
+  color: #ADBC9F;
+  text-align: center;
+}
+ 
+nav a:hover {
+  font-weight: bold;
+}
+
+.logo {
+  display: inline-block;
+  color: #436850;
+  padding: 10px 20px; 
+  border-radius: 5px;
+  font-size: 24px; 
+  font-weight: bold;
+}
+ 
+.profile header {
+  text-align: center;
+}
+ 
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+ 
+  object-fit: cover;
+  object-position: center;
+}
+
+.save-forest {
+  max-width: 250px;
+}
+
+ 
+.card {
+
+  border-radius: 5px;
+ 
+  padding: 20px;
+}
+
+.profile-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+ 
+  padding: 20px;
+  text-align: center;
+}
+ 
+
+ 
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+ 
+  gap: 2rem;
+}
+ 
+nav li {
+  list-style-type: none;
+}
+ 
+nav {
+  background-color: #ffffff;
+  padding: 5px;
+ 
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+}
+ 
+main {
+  padding: 20px;
+ 
+  display: flex;
+  gap: 1.5rem;
+}
+ 
+#content {
+  flex: 5;
+ 
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+}
+ 
+aside {
+  flex: 1;
+}
+ 
+header {
+  position: sticky;
+  display: inline;
+  z-index: 1000;
+}
+
+
+
+
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  display: none;
+}
+
+
+.carousel img {
+  width: 100%;
+  max-height: 300px;
+ 
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+ 
+/* Perangkat dengan lebar layar 1200px dan di bawahnya */
+@media screen and (max-width: 1200px) {
+  main {
+    flex-flow: column nowrap;
+  }
+ 
+  main aside {
+    align-self: center;
+  }
+}
+ 
+/* Perangkat dengan lebar layar 768px dan di bawahnya */
+@media screen and (max-width: 768px) {
+  nav ul {
+    justify-content: center;
+  }
+ 
+  main aside {
+    align-self: stretch;
+  }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save Forest</title>
+
+    <!-- My Own Styles -->
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+
+
+      <nav>
+        <div class="logo">
+          <span class="logo-text">SaveForest</span>
+        </div>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#kegiatan">Kegiatan</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Konten artikel -->
+      <div id="content">
+        <article id="home" class="card">
+          <h2>Kami adalah..</h2>
+          <p>
+            sebuah kampanye atau gerakan yang bertujuan untuk melestarikan, 
+            melindungi, dan memulihkan hutan-hutan di seluruh dunia. Tujuan dari gerakan 
+            ini adalah untuk meningkatkan kesadaran masyarakat akan pentingnya menjaga 
+            keberlangsungan hutan sebagai sumber kehidupan bagi manusia dan ekosistem global secara keseluruhan.
+          </p>
+          <img src="assets/image/hutan-1.jpg" alt="hutan 1" class="featured-image" />
+          <h2 id="kegiatan">Kegiatan Kami..</h2>
+
+          <section>
+            <h3>Menanam Pohon Bersama</h3>
+            <div id="carousel" class="carousel">
+                <img src="assets/image/tanam-pohon.jpg" alt="tanam pohon 1" class="carousel-image" />
+                <img src="assets/image/tanam-pohon1.jpg" alt="tanam pohon 3" class="carousel-image" />
+                <button id="prevBtn" class="carousel-btn prev-btn" onclick="prevImage()">&#10094;</button>
+                <button id="nextBtn" class="carousel-btn next-btn" onclick="nextImage()">&#10095;</button>
+            </div>
+            <p>
+                Kegiatan menanam pohon bersama adalah langkah nyata dalam upaya melestarikan hutan. Pohon-pohon yang ditanam tidak hanya akan memberikan manfaat lingkungan, tetapi juga berkontribusi dalam menjaga keberlanjutan ekosistem hutan. Tema "Save Forest" dalam kegiatan ini menyoroti pentingnya regenerasi hutan dan menjaga keseimbangan ekosistem alami. Para peserta tidak hanya akan berpartisipasi dalam tindakan nyata untuk merestorasi hutan yang telah rusak, tetapi juga menjadi bagian dari upaya kolektif untuk menyelamatkan lingkungan alam.
+            </p>
+        </section>
+
+          <section>
+            <h3>Penggalangan Dana</h3>
+            <img src="assets/image/penggalangan-dana.jpg" alt="galang dana" class="featured-image" />
+            <p>
+              Penggalangan dana adalah aspek penting dalam mendukung kegiatan konservasi hutan. Tema "Save Forest" dalam penggalangan dana akan memberikan kesadaran kepada para donatur tentang urgensi perlindungan hutan dan pentingnya melestarikan keanekaragaman hayati. Dana yang terkumpul akan digunakan untuk mendukung berbagai program konservasi, seperti penanaman pohon, pemeliharaan habitat, atau pendidikan lingkungan. Melalui penggalangan dana, organisasi akan dapat menciptakan dampak positif yang signifikan dalam pelestarian hutan dan lingkungan alam secara keseluruhan.
+            </p>
+          </section>
+
+          <section>
+            <h3>Pengembangan Ekowisata</h3>
+            <img src="assets/image/ekowisata-hutan.jpeg" alt="ekowisata" class="featured-image" />
+            <p>
+              Pengembangan ekowisata di area hutan merupakan langkah strategis dalam memadukan kegiatan pelestarian alam dengan pembangunan ekonomi lokal. Dengan tema "Save Forest", pengembangan ekowisata akan menekankan pentingnya menjaga keberlanjutan ekosistem hutan sambil menciptakan peluang ekonomi bagi masyarakat setempat. Melalui pengembangan ekowisata yang bertanggung jawab, organisasi dapat meningkatkan kesadaran masyarakat tentang keindahan alam dan pentingnya menjaga ekosistem hutan yang rentan terhadap aktivitas manusia. 
+            </p>
+          </section>
+
+          <section id="contact">
+            <h2>Contact Us</h2>
+            <div>
+              <p>Email: saveforest@gmail.com</p>
+              <p>Phone: 123-456-7890</p>
+              <p>Address: Pontianak, Indonesia</p>
+            </div>
+          </section>
+
+        </article>
+      </div>
+
+      <!-- Konten samping -->
+      <aside>
+        <article class="profile-card">
+          <header>
+            <h2>Mari Jaga Hutan Kita</h2>
+            <figure>
+              <img class="save-forest" src="assets/image/save-forest.png" />
+
+            </figure>
+          </header>
+
+          <section>
+
+
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Built with Tolak Angin &#169; 2024, SaveForest</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
